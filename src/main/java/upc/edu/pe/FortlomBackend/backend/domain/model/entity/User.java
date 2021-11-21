@@ -64,4 +64,15 @@ public class User  {
     @OneToMany(targetEntity = ForumComment.class,cascade = CascadeType.ALL)
     @JoinColumn(name = "userid",referencedColumnName = "id")
     private List<ForumComment> forumComments;
+
+
+    @OneToMany(targetEntity = Report.class,cascade = CascadeType.ALL)
+    @JoinColumn(name = "userMainid",referencedColumnName = "id")
+    private List<Report> reportmains;
+
+    @OneToMany(targetEntity = Report.class,cascade = CascadeType.ALL)
+    @JoinColumn(name = "userReportedid",referencedColumnName = "id")
+    private List<Report> reporttouser;
+
+
 }

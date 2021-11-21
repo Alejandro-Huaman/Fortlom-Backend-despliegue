@@ -39,4 +39,18 @@ public class Artist{
     @OneToMany(targetEntity = Publication.class,cascade = CascadeType.ALL)
     @JoinColumn(name = "artistid",referencedColumnName = "id")
     private List<Publication> publications;
+
+
+    @OneToMany(targetEntity = Follow.class,cascade = CascadeType.ALL)
+    @JoinColumn(name = "artistid",referencedColumnName = "id")
+    private List<Follow> follow;
+
+    @OneToMany(targetEntity = Rate.class,cascade = CascadeType.ALL)
+    @JoinColumn(name = "artistid",referencedColumnName = "id")
+    private List<Rate> rate;
+
+
+
+
+
 }

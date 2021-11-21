@@ -29,22 +29,21 @@ public class Publication {
     @NotNull
     @NotBlank
     @Size(max = 30)
-    @Column(unique = true)
+    @Column()
     private String PublicationName;
 
 
     @NotNull
     @NotBlank
     @Size(max = 100)
-    @Column(unique = true)
+    @Column()
     private String PublicationDescription;
 
     @NotNull
-    @Column(unique = true)
+    @Column()
     private Long likes;
 
     @NotNull
-    @Column(unique = true)
     private String date;
 
     @ManyToOne(targetEntity = Artist.class)
@@ -54,4 +53,8 @@ public class Publication {
     @OneToMany(targetEntity = Comment.class,cascade = CascadeType.ALL)
     @JoinColumn(name = "publicationid",referencedColumnName = "id")
     private List<Comment> comment;
+
+    @OneToMany(targetEntity = Multimedia.class,cascade = CascadeType.ALL)
+    @JoinColumn(name = "publicationid",referencedColumnName = "id")
+    private List<Multimedia> multimedia;
 }

@@ -36,11 +36,9 @@ public class Comment {
     @NotNull
     @NotBlank
     @Size(max = 150)
-    @Column(unique = true)
     private String CommentDescription;
 
     @NotNull
-    @Column(unique = true)
     @Size(max = 50)
     private String date;
 
