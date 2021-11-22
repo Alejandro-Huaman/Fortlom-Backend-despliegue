@@ -48,11 +48,6 @@ public class User  {
     @Column()
     private String Password;
 
-
-
-    @OneToMany
-    private List<Publication> publications;
-
     @OneToMany(targetEntity = Comment.class,cascade = CascadeType.ALL)
     @JoinColumn(name = "userid",referencedColumnName = "id")
     private List<Comment> comment;
