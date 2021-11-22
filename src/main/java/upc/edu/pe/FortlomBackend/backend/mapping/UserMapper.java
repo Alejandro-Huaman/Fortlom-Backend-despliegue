@@ -4,9 +4,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import upc.edu.pe.FortlomBackend.backend.domain.model.entity.User;
-import upc.edu.pe.FortlomBackend.backend.resource.CreateUserResource;
-import upc.edu.pe.FortlomBackend.backend.resource.UpdateUserResource;
-import upc.edu.pe.FortlomBackend.backend.resource.UserResource;
+import upc.edu.pe.FortlomBackend.backend.resource.User.CreateUserResource;
+import upc.edu.pe.FortlomBackend.backend.resource.User.UpdateUserResource;
+import upc.edu.pe.FortlomBackend.backend.resource.User.UserResource;
 import upc.edu.pe.FortlomBackend.shared.mapping.EnhancedModelMapper;
 
 import java.io.Serializable;

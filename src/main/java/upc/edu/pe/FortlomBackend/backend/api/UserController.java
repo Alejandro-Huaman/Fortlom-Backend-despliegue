@@ -6,9 +6,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import upc.edu.pe.FortlomBackend.backend.domain.service.UserService;
 import upc.edu.pe.FortlomBackend.backend.mapping.UserMapper;
-import upc.edu.pe.FortlomBackend.backend.resource.CreateUserResource;
-import upc.edu.pe.FortlomBackend.backend.resource.UpdateUserResource;
-import upc.edu.pe.FortlomBackend.backend.resource.UserResource;
+import upc.edu.pe.FortlomBackend.backend.resource.User.CreateUserResource;
+import upc.edu.pe.FortlomBackend.backend.resource.User.UpdateUserResource;
+import upc.edu.pe.FortlomBackend.backend.resource.User.UserResource;
 
 import javax.validation.Valid;
 

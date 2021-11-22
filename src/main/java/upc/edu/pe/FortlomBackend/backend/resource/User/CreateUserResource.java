@@ -1,4 +1,4 @@
-package upc.edu.pe.FortlomBackend.backend.resource;
+package upc.edu.pe.FortlomBackend.backend.resource.User;
 import javax.persistence.Column;
 import javax.persistence.Lob;
 import javax.validation.constraints.NotNull;

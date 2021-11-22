@@ -1,4 +1,4 @@
-package upc.edu.pe.FortlomBackend.backend.resource;
+package upc.edu.pe.FortlomBackend.backend.resource.User;
 
 import lombok.Getter;
 import lombok.Setter;

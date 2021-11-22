@@ -8,11 +8,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import upc.edu.pe.FortlomBackend.backend.domain.service.FanaticService;
 import upc.edu.pe.FortlomBackend.backend.mapping.FanaticMapper;
-import upc.edu.pe.FortlomBackend.backend.resource.CreateUserResource;
 import upc.edu.pe.FortlomBackend.backend.resource.Fanatic.CreatedFanaticResource;
 import upc.edu.pe.FortlomBackend.backend.resource.Fanatic.FanaticResource;
 import upc.edu.pe.FortlomBackend.backend.resource.Fanatic.UpdateFanaticResource;
-import upc.edu.pe.FortlomBackend.backend.resource.UpdateUserResource;
 
 
 

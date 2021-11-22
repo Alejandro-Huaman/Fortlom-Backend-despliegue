@@ -4,7 +4,7 @@ import lombok.Setter;
 import upc.edu.pe.FortlomBackend.backend.domain.model.entity.Publication;
 import upc.edu.pe.FortlomBackend.backend.domain.persistence.PublicationRepository;
 import upc.edu.pe.FortlomBackend.backend.resource.Publication.PublicationResource;
-import upc.edu.pe.FortlomBackend.backend.resource.UserResource;
+import upc.edu.pe.FortlomBackend.backend.resource.User.UserResource;
 
 import java.util.Date;
 

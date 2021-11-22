@@ -3,7 +3,7 @@ package upc.edu.pe.FortlomBackend.backend.resource.Report;
 import lombok.Getter;
 import lombok.Setter;
 import upc.edu.pe.FortlomBackend.backend.domain.model.entity.User;
-import upc.edu.pe.FortlomBackend.backend.resource.UserResource;
+import upc.edu.pe.FortlomBackend.backend.resource.User.UserResource;
 
 @Getter
 @Setter
