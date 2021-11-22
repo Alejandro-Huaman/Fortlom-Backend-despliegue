@@ -19,7 +19,7 @@ import java.util.Set;
 @Service
 public class UserServiceImpl implements UserService {
 
-    private static final String ENTITY = "User";
+    private static final String ENTITY = "Usuario";
 
     private final UserRepository userRepository;
 
